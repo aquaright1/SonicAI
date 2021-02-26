@@ -4,6 +4,8 @@ This was made with GymRetro and NEAT python.
 
 Few things to keep in mind when using this repo
 
+Must import the game/ROM from Steam in order to run things with GymRetro
+
 There was also an odd issue where you you had to use a numpy version 1.19.3 or lower 
 
 # For the Multiprocessing training model
@@ -21,3 +23,9 @@ Change the number to whatever checkpoint you would like to restore
 
 p.add_reporter(neat.Checkpointer(10))
 This changes how often it saves ex.this saves every 10 generations
+
+
+# Other Notes
+The simple folder is for single core processing traning model
+
+I have included my successful training checkpoints if you would like to restore those and test for yourselves
