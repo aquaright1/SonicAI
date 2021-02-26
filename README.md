@@ -11,4 +11,4 @@ Make sure that number is not too high since NEAT python does not utilize your GP
 
 I was not able to get the pickling to work for this so contact me on discord Bromine#8183 if you got it to work
 
-# There was also an odd issue where you you had to use a numpy version 1.19.3 or lower 
+There was also an odd issue where you you had to use a numpy version 1.19.3 or lower 
