@@ -15,6 +15,7 @@ I was not able to get the pickling to work for this so contact me on discord Bro
 
 # To run a previous checkpoint of Sonic
 There should be a line like this near the bottom
+
 p = neat.Checkpointer.restore_checkpoint('neat-checkpoint-215')
 Change the number to whatever checkpoint you would like to restore 
 
