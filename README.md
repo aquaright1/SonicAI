@@ -13,4 +13,10 @@ Make sure that number is not too high since NEAT python does not utilize your GP
 
 I was not able to get the pickling to work for this so contact me on discord Bromine#8183 if you got it to work
 
+# To run a previous checkpoint of Sonic
+There should be a line like this near the bottom
+p = neat.Checkpointer.restore_checkpoint('neat-checkpoint-215')
+Change the number to whatever checkpoint you would like to restore 
 
+p.add_reporter(neat.Checkpointer(10))
+This changes how often it saves ex.this saves every 10 generations
