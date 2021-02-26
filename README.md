@@ -29,3 +29,5 @@ This changes how often it saves ex.this saves every 10 generations
 The simple folder is for single core processing traning model
 
 I have included my successful training checkpoints if you would like to restore those and test for yourselves
+
+HIGHLY recommended to set species_elitism to 1 in the config file, this prevents your genomes from going extinct and starting over
