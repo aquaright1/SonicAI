@@ -1,0 +1,5 @@
+numpy == 1.19.3
+gym-retro
+open-cv python
+neat-python
+cloudpickle
