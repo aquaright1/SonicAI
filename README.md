@@ -8,6 +8,7 @@ Must import the game/ROM from Steam in order to run things with GymRetro
 
 There was also an odd issue where you you had to use a numpy version 1.19.3 or lower 
 
+
 # For the Multiprocessing training model
 
 pe = neat.ParallelEvaluator(1, eval_genomes)
